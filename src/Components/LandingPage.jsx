@@ -9,7 +9,7 @@ function LandingPage() {
         {["We Create","Eye Opening","Presentation"].map((item,index)=>{
             return  <div kry={index} className="masker">
                 <div className="w-fit flex">
-                    {index === 1 && (<div className='w-[9vw] h-[5.5vw] relative top-[1vw] rounded bg-red-200'></div>)}
+                    {index === 1 && (<div className='w-[9vw] h-[5.5vw] relative top-[1vw] rounded bg-[#004D43]'></div>)}
                      <h1 className={`uppercase leading-[6.5vw] tracking-tighter font-medium  font-["Neue Montreal"] text-8xl `}>{item}</h1>
                 </div>
         </div>
@@ -22,7 +22,7 @@ function LandingPage() {
             <h1 className='uppercase font-["FoundersGrotesk-Semibold leading-[9.9vw] tracking-tighter font-medium "] text-5xl'>Presentation</h1>
         </div> */}
       </div>
-      <div className="border-t-[1px] border-zinc-700 mt-32 flex justify-between items-center py-5 px-20">
+      <div className="border-t-[1px] border-zinc-800 mt-20 flex justify-between items-center py-5 px-20">
         {["For public and private companies","From the first Pitch to IPO"].map((item,index)=>(
             <p key={index} className='text-xs font-light traking-tight leading-none '>{item}</p>
         ))}
