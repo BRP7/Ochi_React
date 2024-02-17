@@ -26,7 +26,7 @@ function Eyes() {
 
   return (
     <div className='eyes w-full h-screen overflow-hidden'>
-        <div className='relative w-full h-screen'>
+        <div data-scroll data-scroll-section data-scroll-speed='-.7' className='relative w-full h-screen'>
         <img className="bg-gray-200 max-w-full w-full h-full object-cover transform scale-120 entered loaded" data-component="lazyload" src="https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-1440x921.jpg" width="1440" height="921" data-src="https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-1440x921.jpg" data-srcset="https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-1440x921.jpg 1x, https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-scaled.jpg 2x" alt="image description" data-ll-status="loaded" srcset="https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-1440x921.jpg 1x, https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-scaled.jpg 2x" />
         <div className="absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] flex items-center gap-10 ">
             <div className="flex items-center justify-center w-[15vw] h-[15vw] bg-zinc-100 rounded-full">
