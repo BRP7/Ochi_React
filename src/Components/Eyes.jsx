@@ -8,13 +8,19 @@ function Eyes() {
    useEffect(()=>{
     window.addEventListener("mousemove",(e)=>{
         let mouseX=e.clientX;
+        // console.log(mouseX);
         let mouseY=e.clientY;
+        // console.log(mouseY);
 
         let deltaX = mouseX - window.innerWidth/2;
+        // console.log(deltaX);
         let deltaY = mouseY - window.innerHeight/2;
+        // console.log(deltaY);
 
         let angle = Math.atan2(deltaY,deltaX)*(180/Math.PI);
-        setRotate(angle);
+        // console.log(angle);
+        setRotate(angle-180);
+        // console.log(setRotate);
     })
    })
 
